@@ -8,4 +8,4 @@ sudo chsh "$(id -un)" --shell "/usr/bin/zsh"
 # Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
-source "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
